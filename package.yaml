@@ -16,9 +16,13 @@ executables:
     source-dirs: sql
   pi:
     dependencies:
+      # - criterion
       - parallel
+      - timeit
     main: Main
     source-dirs: pi
 
 dependencies:
   - base
+
+ghc-options: -threaded -with-rtsopts=-N
