@@ -1,0 +1,23 @@
+name: lab
+
+executables:
+  exe:
+    main: Main
+    source-dirs: exe
+  pi:
+    main: Main
+    source-dirs: pi
+
+dependencies:
+  - async
+  - base
+  - bytestring
+  - monad-logger
+  - mtl
+  - neat-interpolation
+  - parallel
+  - persistent-sqlite
+  - persistent-template
+  - resourcet
+  - text
+  - yaml
